@@ -2,6 +2,7 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: rgba(197, 226, 243, 0.712);
+  font-family: "Zen Loop", cursive;
 }
 .login {
   display: grid;
@@ -30,6 +31,8 @@ button {
   background-color: blue;
   padding: 0.25rem;
   width: 5rem;
+  border-radius: 0.5rem;
+  border-color: black;
 }
 .labeltext {
   margin-bottom: 0.25rem;
