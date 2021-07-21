@@ -9,6 +9,9 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   grid-gap: 50px;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.PkaZoqqiw2guf2SCIl2obQHaFj%26pid%3DApi&f=1");
+  background-repeat: no-repeat;
+  background-position: left bottom;
 }
 form {
   grid-column: 1/4;
@@ -37,6 +40,8 @@ button {
 .labeltext {
   margin-bottom: 0.25rem;
   display: inline-block;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 #username {
   text-transform: capitalize;
