@@ -6,21 +6,27 @@ body {
 }
 .login {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   grid-gap: 50px;
-  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.PkaZoqqiw2guf2SCIl2obQHaFj%26pid%3DApi&f=1");
-  background-repeat: no-repeat;
-  background-position: left bottom;
+  background-image: linear-gradient(
+    rgba(197, 226, 243, 0.712),
+    rgba(197, 226, 243, 0)
+  );
+}
+h1 {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: start;
 }
 form {
-  grid-column: 1/4;
-  grid-row: 2/9;
+  grid-column: 1;
+  grid-row: 2;
   justify-self: start;
 }
 img {
-  grid-column: 7/11;
-  grid-row: 3/12;
+  grid-column: 3;
+  grid-row: 1/3;
   justify-self: end;
 }
 .textbox {
